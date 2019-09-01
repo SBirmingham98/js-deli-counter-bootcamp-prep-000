@@ -11,9 +11,9 @@ function nowServing(line) {
   }
 }
 
+var lineArr = [];
 
 function currentLine(line) {
-  var lineArr = [];
   
   for (let i = 0; i < line.length; i++) {
     lineArr.push(` `+[i+1]+`. `  + line[i])
